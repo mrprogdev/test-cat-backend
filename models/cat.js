@@ -5,6 +5,7 @@ const CatSchema = new mongoose.Schema(
     id: Number,
     name: String,
     age: Number,
+    is_liked: Boolean,
     description: String,
     image_url: String,
     background_color: String,
