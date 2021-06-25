@@ -4,7 +4,6 @@ const { ApolloServer } = require("apollo-server");
 const resolvers = require("./schema/resolvers");
 const typeDefs = require("./schema/typeDefs");
 
-require("dotenv").config();
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
 const server = new ApolloServer({
